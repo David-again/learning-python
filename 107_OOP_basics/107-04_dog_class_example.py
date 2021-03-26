@@ -1,4 +1,4 @@
-# Create a Dog class with dog_years based on the Piglet class shown before (one human year is about 7 dog years).
+# This is a Dog class, with a dog_years() method to convert the dog's age to dog-years. (one human year is about 7 dog years).
 
 class Dog:
   years = 0
