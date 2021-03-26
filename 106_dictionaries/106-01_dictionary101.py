@@ -2,7 +2,7 @@ file_counts = { "jpg": 10, "txt": 14, "csv": 2, "py": 23 }
 for extension in file_counts:
     print(extension)
     
-# Note: The above only returns the kyes of the dictionary by default.
+# Note: The above only returns the keys of the dictionary by default.
 # In the alternative, we can use the .items() method to get a tuple of key: value pairs, which is "unpacked" at the initialization of the for loop.  See example:
 
 for ext, amount in file_counts.items():

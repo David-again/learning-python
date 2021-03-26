@@ -18,6 +18,7 @@ contact_list = [
 print(full_emails(contact_list))
 
 # Cautionary note about lists: 
+# ============================
 # It is NOT advisable to use the range() function with lists the way we do with for...loops.  Instead, it is better to use the enumerate() function and then work with the indexes that way.
 
 # Also, if there's a need to modify a list while iterating through it, a better approach is to work with a copy of the list instead.
